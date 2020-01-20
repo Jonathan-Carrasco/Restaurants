@@ -39,15 +39,3 @@ The relevant files in this folder are **urls.py** and **settings.py**.
 In **barchart**, there is a `models.py` file that describes a single category and probability. There is also an `urls.py` file that handles api requests to "api/barcharts?username=..." by serializing each barchart model before displaying it.
 
 In a similar manner, **heatmap** also contains a `models.py` file that describes a single heatmap square through a (longitiude, latitude, probability) triple. There is also an `urls.py` file that handles api requests to "api/heatmaps?username=..." by serializing each heatmap model before displaying it.
-
-
-#### heatmap
-#### map_view
-#### shell
-#### toronto_restaurants
-#### user_input
-#### users
-### frontend
-#### data
-#### public
-#### src
