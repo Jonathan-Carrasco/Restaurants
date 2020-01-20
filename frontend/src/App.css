@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  height: 100%;
+}
+
+.map{
+  width: 100%;
+  height: 100%;
+}
+
+.dist-line {
+  stroke: grey;
+  fill: none;
+}
+
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
+
+.col-lg-10 {
+  padding-right: 0px;
+}
+
+.sidebar {
+  /* overflow: scroll; */
+  height: 100vh;
+  overflow-y: scroll;
+}
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.form-inline > * {
+   margin:5px 3px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#app {
+  font-family: robot, arial
+}
+svg {
+  fill: #000;
+}
+
+.dist-line path {
+  stroke-width: 1px;
+  fill: none;
+}
+
+.axis {
+  stroke: #000;
+}
+
+.axis-labels text {
+  fill: #000;
+  fill-opacity: 0.9;
+  font-size: 12px;
+  text-anchor: middle;
+}
+
+.axis-labels line {
+  stroke: #000;
+}
+
+.gridline {
+  opacity: 0.2;
+}
+
+/* heatmap */
+.tooltip {
+  background-color: lightgrey;
+  opacity: 0;
+  width: 105px;
+  padding: 1px;
+}
+
+.container {
+  width: 700px;
+  text-align: center;
+}
+
+.yAxis path, line {
+    stroke: white;
+  }
+
+/* stars */
+.score {
+display: block;
+font-size: 16px;
+position: relative;
+overflow: hidden;
+}
+
+.score-wrap {
+display: inline-block;
+position: relative;
+overflow: hidden;
+height: 19px;
+}
+
+.score .stars-active {
+color: #EEBD01;
+position: relative;
+z-index: 10;
+display: inline-block;
+}
+
+.score .stars-inactive {
+color: grey;
+position: absolute;
+top: 0;
+left: 0;
+-webkit-text-stroke: initial;
+overflow: hidden;
+}
